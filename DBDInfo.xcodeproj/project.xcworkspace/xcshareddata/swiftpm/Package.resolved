@@ -1,0 +1,15 @@
+{
+  "originHash" : "3acb3a4fa60fc7eae40bbf8617a32a8181b9dc5dd6694d42aff8a02a38207ade",
+  "pins" : [
+    {
+      "identity" : "customblureffectview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/perfectdim/CustomBlurEffectView.git",
+      "state" : {
+        "revision" : "a25e92fc90c0df9bdf79177974ba8581ea470905",
+        "version" : "0.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}

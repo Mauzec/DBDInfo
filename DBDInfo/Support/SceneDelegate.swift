@@ -4,8 +4,8 @@
 //
 //  Created by Timur Murzakov on 8/19/24.
 //
-
 import UIKit
+import CustomBlurEffectView
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -21,11 +21,26 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window              = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         
-        window?.rootViewController = FeaturesVC()
+        window?.rootViewController = UINavigationController(rootViewController: FeaturesVC())
         window?.makeKeyAndVisible()
+    
+        let customBlurEffectView = CustomBlurEffectView(
+            radius: 20,
+            color: Colors.mainBackground,
+            colorAlpha: 0.4
+        )
+        customBlurEffectView.frame = window?.windowScene?.statusBarManager?.statusBarFrame ?? CGRect.zero
+        window?.addSubview(customBlurEffectView)
         
-        
+        configureNC()
     }
+    
+    func configureNC() {
+        UINavigationBar.appearance().barTintColor   = .white
+        UINavigationBar.appearance().tintColor      = .white
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
+    }
+    
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

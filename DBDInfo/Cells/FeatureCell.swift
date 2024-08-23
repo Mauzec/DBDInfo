@@ -36,7 +36,7 @@ class FeatureCell: UICollectionViewCell {
         self.addSubview(symbolLabel)
         self.addSubview(titleLabel)
         
-        self.backgroundColor = UIColor.init(red: 21 / 255, green: 21 / 255, blue: 21 / 255, alpha: 1)
+        self.backgroundColor = Colors.secondaryBackground
         self.layer.cornerRadius = 10
         self.layer.borderColor  = UIColor.white.withAlphaComponent(0.10).cgColor
         

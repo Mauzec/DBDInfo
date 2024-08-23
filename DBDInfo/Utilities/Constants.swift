@@ -8,7 +8,7 @@
 import UIKit
 
 enum Symbols {
-    // symbols are not showed here, because they uses Font Awesome (Solid)
+    // symbols are not showed here, because they are based on Font Awesome (Solid)
     
     static let earthAmericans       = ""
     static let circleUser           = ""
@@ -30,4 +30,10 @@ enum Symbols {
     static let wrench               = ""
     static let triangleExclamation  = ""
     static let unlock               = ""
+}
+
+
+enum Colors {
+    static let mainBackground       = UIColor.init(red: 41 / 255, green: 41 / 255, blue: 41 / 255, alpha: 1)
+    static let secondaryBackground = UIColor.init(red: 21 / 255, green: 21 / 255, blue: 21 / 255, alpha: 1)
 }

@@ -11,13 +11,19 @@ class FeaturesVC: UIViewController {
     
     var collectionView: UICollectionView!
     var dataSource: UICollectionViewDiffableDataSource<Section, Feature>!
+    var features: [Feature] = Feature.mainFeatures
 
     override func viewDidLoad() {
         super.viewDidLoad()
         configureVC()
         configureCollectionView()
         configureDataSource()
-        setData(on: Feature.mainFeatures)
+        setData(on: features)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     
@@ -30,8 +36,8 @@ class FeaturesVC: UIViewController {
     }
     
     func configureVC() {
-        
     }
+    
     
     func configureCollectionView() {
         collectionView = UICollectionView(
@@ -39,8 +45,9 @@ class FeaturesVC: UIViewController {
             collectionViewLayout: UIHelper.createTwoColumnFlowLayout(in: view)
         )
         view.addSubview(collectionView)
-        collectionView.delegate = self
-        collectionView.backgroundColor          = UIColor.init(red: 41 / 255, green: 41 / 255, blue: 41 / 255, alpha: 1)
+        collectionView.delegate         = self
+        collectionView.backgroundColor  = Colors.mainBackground
+        
         collectionView.register(FeatureCell.self, forCellWithReuseIdentifier: FeatureCell.reuseID)
     }
     
@@ -56,7 +63,9 @@ class FeaturesVC: UIViewController {
 
 extension FeaturesVC: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let feature     = features[indexPath.item]
+        let destVC      = feature.destinationScreenType.init()
+        navigationController?.pushViewController(destVC, animated: true)
     }
 }
 

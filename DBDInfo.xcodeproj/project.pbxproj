@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5506720E2C7786FD008F0420 /* DLCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506720D2C7786FD008F0420 /* DLCVC.swift */; };
+		550672102C77877A008F0420 /* DLCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506720F2C77877A008F0420 /* DLCCell.swift */; };
+		550672132C7788B1008F0420 /* PreviewImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550672122C7788B1008F0420 /* PreviewImageView.swift */; };
+		550672152C779954008F0420 /* DLC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550672142C779950008F0420 /* DLC.swift */; };
 		552B0CBB2C736CBF00344F9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B0CBA2C736CBF00344F9B /* AppDelegate.swift */; };
 		552B0CBD2C736CBF00344F9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B0CBC2C736CBF00344F9B /* SceneDelegate.swift */; };
 		552B0CBF2C736CBF00344F9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B0CBE2C736CBF00344F9B /* ViewController.swift */; };
@@ -26,6 +30,7 @@
 		552B0CFF2C738F6A00344F9B /* DIAdditionalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B0CFE2C738F6A00344F9B /* DIAdditionalLabel.swift */; };
 		552B0D012C73AC8E00344F9B /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 552B0D002C73AC8D00344F9B /* fa-solid-900.ttf */; };
 		552B0D032C73B0E800344F9B /* DISymbolLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B0D022C73B0E800344F9B /* DISymbolLabel.swift */; };
+		55E2D1A72C750621003181B8 /* CustomBlurEffectView in Frameworks */ = {isa = PBXBuildFile; productRef = 55E2D1A62C750621003181B8 /* CustomBlurEffectView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5506720D2C7786FD008F0420 /* DLCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLCVC.swift; sourceTree = "<group>"; };
+		5506720F2C77877A008F0420 /* DLCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLCCell.swift; sourceTree = "<group>"; };
+		550672122C7788B1008F0420 /* PreviewImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewImageView.swift; sourceTree = "<group>"; };
+		550672142C779950008F0420 /* DLC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLC.swift; sourceTree = "<group>"; };
 		552B0CB72C736CBF00344F9B /* DBDInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBDInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552B0CBA2C736CBF00344F9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552B0CBC2C736CBF00344F9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E2D1A72C750621003181B8 /* CustomBlurEffectView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		550672112C778897008F0420 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				550672122C7788B1008F0420 /* PreviewImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
 		552B0CAE2C736CBE00344F9B = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +142,7 @@
 				552B0CC02C736CBF00344F9B /* Main.storyboard */,
 				552B0CC52C736CC200344F9B /* LaunchScreen.storyboard */,
 				552B0CC82C736CC200344F9B /* Info.plist */,
+				550672112C778897008F0420 /* ImageViews */,
 				552B0CF92C738D8000344F9B /* Labels */,
 				552B0CF42C737B7100344F9B /* Cells */,
 				552B0CF12C73778B00344F9B /* Utilities */,
@@ -165,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				552B0CEC2C736EE100344F9B /* FeaturesVC.swift */,
+				5506720D2C7786FD008F0420 /* DLCVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -172,6 +192,7 @@
 		552B0CEE2C73740700344F9B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				550672142C779950008F0420 /* DLC.swift */,
 				552B0CEF2C73740F00344F9B /* Feature.swift */,
 			);
 			path = Models;
@@ -190,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				552B0CF52C737B8B00344F9B /* FeatureCell.swift */,
+				5506720F2C77877A008F0420 /* DLCCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -221,6 +243,9 @@
 			dependencies = (
 			);
 			name = DBDInfo;
+			packageProductDependencies = (
+				55E2D1A62C750621003181B8 /* CustomBlurEffectView */,
+			);
 			productName = DBDInfo;
 			productReference = 552B0CB72C736CBF00344F9B /* DBDInfo.app */;
 			productType = "com.apple.product-type.application";
@@ -293,6 +318,9 @@
 				Base,
 			);
 			mainGroup = 552B0CAE2C736CBE00344F9B;
+			packageReferences = (
+				55E2D1A52C750621003181B8 /* XCRemoteSwiftPackageReference "CustomBlurEffectView" */,
+			);
 			productRefGroup = 552B0CB82C736CBF00344F9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -338,13 +366,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				552B0CFD2C738E6000344F9B /* DISecondaryLabel.swift in Sources */,
+				550672102C77877A008F0420 /* DLCCell.swift in Sources */,
 				552B0D032C73B0E800344F9B /* DISymbolLabel.swift in Sources */,
 				552B0CFB2C738DA100344F9B /* DITitleLabel.swift in Sources */,
 				552B0CED2C736EE100344F9B /* FeaturesVC.swift in Sources */,
+				5506720E2C7786FD008F0420 /* DLCVC.swift in Sources */,
 				552B0CF62C737B8B00344F9B /* FeatureCell.swift in Sources */,
+				550672152C779954008F0420 /* DLC.swift in Sources */,
 				552B0CBF2C736CBF00344F9B /* ViewController.swift in Sources */,
 				552B0CF02C73741100344F9B /* Feature.swift in Sources */,
 				552B0CBB2C736CBF00344F9B /* AppDelegate.swift in Sources */,
+				550672132C7788B1008F0420 /* PreviewImageView.swift in Sources */,
 				552B0CBD2C736CBF00344F9B /* SceneDelegate.swift in Sources */,
 				552B0CF32C73779F00344F9B /* UIHelper.swift in Sources */,
 				552B0CF82C737F8D00344F9B /* Constants.swift in Sources */,
@@ -693,6 +725,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55E2D1A52C750621003181B8 /* XCRemoteSwiftPackageReference "CustomBlurEffectView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/perfectdim/CustomBlurEffectView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55E2D1A62C750621003181B8 /* CustomBlurEffectView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55E2D1A52C750621003181B8 /* XCRemoteSwiftPackageReference "CustomBlurEffectView" */;
+			productName = CustomBlurEffectView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 552B0CAF2C736CBE00344F9B /* Project object */;
 }
