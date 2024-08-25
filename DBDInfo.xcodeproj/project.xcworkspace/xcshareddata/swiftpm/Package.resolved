@@ -1,5 +1,5 @@
 {
-  "originHash" : "3acb3a4fa60fc7eae40bbf8617a32a8181b9dc5dd6694d42aff8a02a38207ade",
+  "originHash" : "a287dbe1ae963951799d8eb9c1f36533b06a36b66785b501bd2f0d596bd0651c",
   "pins" : [
     {
       "identity" : "customblureffectview",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "a25e92fc90c0df9bdf79177974ba8581ea470905",
         "version" : "0.0.3"
+      }
+    },
+    {
+      "identity" : "scalingcarousel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/superpeteblaze/ScalingCarousel.git",
+      "state" : {
+        "revision" : "f2bfde4db386243fd4e0e4687fcfff530c239c20",
+        "version" : "3.2.0"
       }
     }
   ],

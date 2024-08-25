@@ -32,5 +32,6 @@ class PreviewImageView: UIImageView {
 //        clipsToBounds       = true
         image               = placeholderImage
         tintColor           = .white
+        contentMode         = .scaleAspectFit
     }
 }

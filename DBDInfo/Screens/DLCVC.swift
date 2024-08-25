@@ -81,5 +81,10 @@ extension DLCVC: UITableViewDelegate, UITableViewDataSource {
         return headerView
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let dlc     = DLCs[indexPath.section]
+        let destVC  = DLCInfoVC(dlc: dlc)
+        
+        navigationController?.pushViewController(destVC, animated: true)
+    }
 }

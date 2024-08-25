@@ -11,10 +11,11 @@
 		550672102C77877A008F0420 /* DLCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506720F2C77877A008F0420 /* DLCCell.swift */; };
 		550672132C7788B1008F0420 /* PreviewImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550672122C7788B1008F0420 /* PreviewImageView.swift */; };
 		550672152C779954008F0420 /* DLC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550672142C779950008F0420 /* DLC.swift */; };
+		550672172C78D4D0008F0420 /* [Not done yet]DLCInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550672162C78D4D0008F0420 /* [Not done yet]DLCInfoVC.swift */; };
+		5506721A2C78D8B9008F0420 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550672192C78D8AF008F0420 /* UIView+Ext.swift */; };
 		552B0CBB2C736CBF00344F9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B0CBA2C736CBF00344F9B /* AppDelegate.swift */; };
 		552B0CBD2C736CBF00344F9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B0CBC2C736CBF00344F9B /* SceneDelegate.swift */; };
 		552B0CBF2C736CBF00344F9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B0CBE2C736CBF00344F9B /* ViewController.swift */; };
-		552B0CC22C736CBF00344F9B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 552B0CC12C736CBF00344F9B /* Base */; };
 		552B0CC42C736CC200344F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552B0CC32C736CC200344F9B /* Assets.xcassets */; };
 		552B0CC72C736CC200344F9B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 552B0CC62C736CC200344F9B /* Base */; };
 		552B0CD22C736CC200344F9B /* DBDInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B0CD12C736CC200344F9B /* DBDInfoTests.swift */; };
@@ -30,6 +31,10 @@
 		552B0CFF2C738F6A00344F9B /* DIAdditionalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B0CFE2C738F6A00344F9B /* DIAdditionalLabel.swift */; };
 		552B0D012C73AC8E00344F9B /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 552B0D002C73AC8D00344F9B /* fa-solid-900.ttf */; };
 		552B0D032C73B0E800344F9B /* DISymbolLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B0D022C73B0E800344F9B /* DISymbolLabel.swift */; };
+		5540A0E12C7B6D4D00351A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5540A0E02C7B6D4D00351A86 /* Main.storyboard */; };
+		5540A0E32C7B73E500351A86 /* DIGradientDividerLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540A0E22C7B73E500351A86 /* DIGradientDividerLine.swift */; };
+		5540A0E82C7B928200351A86 /* ScalingCarousel in Frameworks */ = {isa = PBXBuildFile; productRef = 5540A0E72C7B928200351A86 /* ScalingCarousel */; };
+		55C028A82C7B637A00AE93B5 /* DLCInfoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C028A72C7B637A00AE93B5 /* DLCInfoHeaderView.swift */; };
 		55E2D1A72C750621003181B8 /* CustomBlurEffectView in Frameworks */ = {isa = PBXBuildFile; productRef = 55E2D1A62C750621003181B8 /* CustomBlurEffectView */; };
 /* End PBXBuildFile section */
 
@@ -55,11 +60,12 @@
 		5506720F2C77877A008F0420 /* DLCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLCCell.swift; sourceTree = "<group>"; };
 		550672122C7788B1008F0420 /* PreviewImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewImageView.swift; sourceTree = "<group>"; };
 		550672142C779950008F0420 /* DLC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLC.swift; sourceTree = "<group>"; };
+		550672162C78D4D0008F0420 /* [Not done yet]DLCInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[Not done yet]DLCInfoVC.swift"; sourceTree = "<group>"; };
+		550672192C78D8AF008F0420 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		552B0CB72C736CBF00344F9B /* DBDInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBDInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552B0CBA2C736CBF00344F9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552B0CBC2C736CBF00344F9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		552B0CBE2C736CBF00344F9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		552B0CC12C736CBF00344F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		552B0CC32C736CC200344F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		552B0CC62C736CC200344F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		552B0CC82C736CC200344F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +84,9 @@
 		552B0CFE2C738F6A00344F9B /* DIAdditionalLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIAdditionalLabel.swift; sourceTree = "<group>"; };
 		552B0D002C73AC8D00344F9B /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.ttf"; sourceTree = "<group>"; };
 		552B0D022C73B0E800344F9B /* DISymbolLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DISymbolLabel.swift; sourceTree = "<group>"; };
+		5540A0E02C7B6D4D00351A86 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5540A0E22C7B73E500351A86 /* DIGradientDividerLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIGradientDividerLine.swift; sourceTree = "<group>"; };
+		55C028A72C7B637A00AE93B5 /* DLCInfoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLCInfoHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5540A0E82C7B928200351A86 /* ScalingCarousel in Frameworks */,
 				55E2D1A72C750621003181B8 /* CustomBlurEffectView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +124,14 @@
 			path = ImageViews;
 			sourceTree = "<group>";
 		};
+		550672182C78D8A8008F0420 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				550672192C78D8AF008F0420 /* UIView+Ext.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 		552B0CAE2C736CBE00344F9B = {
 			isa = PBXGroup;
 			children = (
@@ -137,14 +155,13 @@
 		552B0CB92C736CBF00344F9B /* DBDInfo */ = {
 			isa = PBXGroup;
 			children = (
+				5540A0E02C7B6D4D00351A86 /* Main.storyboard */,
 				552B0D002C73AC8D00344F9B /* fa-solid-900.ttf */,
 				552B0CC32C736CC200344F9B /* Assets.xcassets */,
-				552B0CC02C736CBF00344F9B /* Main.storyboard */,
-				552B0CC52C736CC200344F9B /* LaunchScreen.storyboard */,
 				552B0CC82C736CC200344F9B /* Info.plist */,
-				550672112C778897008F0420 /* ImageViews */,
-				552B0CF92C738D8000344F9B /* Labels */,
-				552B0CF42C737B7100344F9B /* Cells */,
+				55C0289F2C7B5CC300AE93B5 /* Storyboards */,
+				55C028A62C7B636100AE93B5 /* Custom Views */,
+				550672182C78D8A8008F0420 /* Extentions */,
 				552B0CF12C73778B00344F9B /* Utilities */,
 				552B0CEE2C73740700344F9B /* Models */,
 				552B0CEB2C736EA500344F9B /* Screens */,
@@ -185,6 +202,7 @@
 			children = (
 				552B0CEC2C736EE100344F9B /* FeaturesVC.swift */,
 				5506720D2C7786FD008F0420 /* DLCVC.swift */,
+				550672162C78D4D0008F0420 /* [Not done yet]DLCInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -227,6 +245,34 @@
 			path = Labels;
 			sourceTree = "<group>";
 		};
+		55C0289C2C7B58C000AE93B5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		55C0289F2C7B5CC300AE93B5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				552B0CC52C736CC200344F9B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		55C028A62C7B636100AE93B5 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				55C0289C2C7B58C000AE93B5 /* ViewControllers */,
+				550672112C778897008F0420 /* ImageViews */,
+				552B0CF92C738D8000344F9B /* Labels */,
+				552B0CF42C737B7100344F9B /* Cells */,
+				55C028A72C7B637A00AE93B5 /* DLCInfoHeaderView.swift */,
+				5540A0E22C7B73E500351A86 /* DIGradientDividerLine.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -245,6 +291,7 @@
 			name = DBDInfo;
 			packageProductDependencies = (
 				55E2D1A62C750621003181B8 /* CustomBlurEffectView */,
+				5540A0E72C7B928200351A86 /* ScalingCarousel */,
 			);
 			productName = DBDInfo;
 			productReference = 552B0CB72C736CBF00344F9B /* DBDInfo.app */;
@@ -320,6 +367,7 @@
 			mainGroup = 552B0CAE2C736CBE00344F9B;
 			packageReferences = (
 				55E2D1A52C750621003181B8 /* XCRemoteSwiftPackageReference "CustomBlurEffectView" */,
+				5540A0E62C7B928200351A86 /* XCRemoteSwiftPackageReference "ScalingCarousel" */,
 			);
 			productRefGroup = 552B0CB82C736CBF00344F9B /* Products */;
 			projectDirPath = "";
@@ -340,7 +388,7 @@
 				552B0CC42C736CC200344F9B /* Assets.xcassets in Resources */,
 				552B0D012C73AC8E00344F9B /* fa-solid-900.ttf in Resources */,
 				552B0CC72C736CC200344F9B /* Base in Resources */,
-				552B0CC22C736CBF00344F9B /* Base in Resources */,
+				5540A0E12C7B6D4D00351A86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,10 +416,14 @@
 				552B0CFD2C738E6000344F9B /* DISecondaryLabel.swift in Sources */,
 				550672102C77877A008F0420 /* DLCCell.swift in Sources */,
 				552B0D032C73B0E800344F9B /* DISymbolLabel.swift in Sources */,
+				5540A0E32C7B73E500351A86 /* DIGradientDividerLine.swift in Sources */,
 				552B0CFB2C738DA100344F9B /* DITitleLabel.swift in Sources */,
 				552B0CED2C736EE100344F9B /* FeaturesVC.swift in Sources */,
 				5506720E2C7786FD008F0420 /* DLCVC.swift in Sources */,
 				552B0CF62C737B8B00344F9B /* FeatureCell.swift in Sources */,
+				550672172C78D4D0008F0420 /* [Not done yet]DLCInfoVC.swift in Sources */,
+				55C028A82C7B637A00AE93B5 /* DLCInfoHeaderView.swift in Sources */,
+				5506721A2C78D8B9008F0420 /* UIView+Ext.swift in Sources */,
 				550672152C779954008F0420 /* DLC.swift in Sources */,
 				552B0CBF2C736CBF00344F9B /* ViewController.swift in Sources */,
 				552B0CF02C73741100344F9B /* Feature.swift in Sources */,
@@ -417,14 +469,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		552B0CC02C736CBF00344F9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				552B0CC12C736CBF00344F9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		552B0CC52C736CC200344F9B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -727,6 +771,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		5540A0E62C7B928200351A86 /* XCRemoteSwiftPackageReference "ScalingCarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/superpeteblaze/ScalingCarousel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
 		55E2D1A52C750621003181B8 /* XCRemoteSwiftPackageReference "CustomBlurEffectView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/perfectdim/CustomBlurEffectView.git";
@@ -738,6 +790,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5540A0E72C7B928200351A86 /* ScalingCarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5540A0E62C7B928200351A86 /* XCRemoteSwiftPackageReference "ScalingCarousel" */;
+			productName = ScalingCarousel;
+		};
 		55E2D1A62C750621003181B8 /* CustomBlurEffectView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 55E2D1A52C750621003181B8 /* XCRemoteSwiftPackageReference "CustomBlurEffectView" */;

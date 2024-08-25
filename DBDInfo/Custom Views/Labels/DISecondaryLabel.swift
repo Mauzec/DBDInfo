@@ -18,17 +18,17 @@ class DISecondaryLabel: UILabel {
         fatalError("init(coder:) has not been implemented")
     }
     
-    convenience init(textAlignment: NSTextAlignment, fontSize: CGFloat) {
+    convenience init(textAlignment: NSTextAlignment, fontSize: CGFloat, textColor: UIColor = .white) {
         self.init(frame: .zero)
-        self.textAlignment = textAlignment
-        self.font = UIFont.systemFont(ofSize: fontSize, weight: .medium)
+        self.textAlignment  = textAlignment
+        self.font           = UIFont.systemFont(ofSize: fontSize, weight: .medium)
+        self.textColor      = textColor
     }
     
     
     private func configure() {
         self.translatesAutoresizingMaskIntoConstraints = false
         
-        self.textColor                  = .white
         self.adjustsFontSizeToFitWidth  = true
         self.minimumScaleFactor         = 0.75
         self.lineBreakMode              = .byTruncatingTail
