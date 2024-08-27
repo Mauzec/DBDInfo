@@ -28,7 +28,7 @@ class DLCCell: UITableViewCell {
     
     func set(dlc: DLC) {
         if dlc.imageAsset != nil {
-            previewImageView.image = UIImage(named: dlc.imageAsset!)
+            previewImageView.placeholderImageView.image = UIImage(named: dlc.imageAsset!)
         }
         dlcNameLabel.text       = dlc.name
         releaseDataLabel.text   = dlc.releaseDate

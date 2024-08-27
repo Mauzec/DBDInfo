@@ -7,10 +7,10 @@
 
 import UIKit
 
-class PreviewImageView: UIImageView {
+class PreviewImageView: UIView {
 
-    let placeholderImage    = UIImage(systemName: "aqi.medium")
-    
+    let placeholderImageView                = UIImageView(image: UIImage(systemName: "aqi.medium"))
+    var backgroundImageView: UIImageView?   = nil
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -26,11 +26,29 @@ class PreviewImageView: UIImageView {
     }
     
     
+    func setBackgroundImage(assetName: String) {
+        backgroundImageView = addBackgroundImage(named: assetName)
+        NSLayoutConstraint.activate([
+            backgroundImageView!.leadingAnchor.constraint(equalTo: leadingAnchor),
+            backgroundImageView!.topAnchor.constraint(equalTo: topAnchor),
+            backgroundImageView!.trailingAnchor.constraint(equalTo: trailingAnchor),
+            backgroundImageView!.bottomAnchor.constraint(equalTo: bottomAnchor),
+        ])
+    }
+    
     private func configure() {
+        addSubview(placeholderImageView)
+        placeholderImageView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            placeholderImageView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            placeholderImageView.topAnchor.constraint(equalTo: topAnchor),
+            placeholderImageView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            placeholderImageView.bottomAnchor.constraint(equalTo: bottomAnchor),
+        ])
+        
         translatesAutoresizingMaskIntoConstraints = false
         layer.cornerRadius  = 6
 //        clipsToBounds       = true
-        image               = placeholderImage
         tintColor           = .white
         contentMode         = .scaleAspectFit
     }

@@ -24,6 +24,7 @@ class FeaturesVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: true)
+        navigationController?.setToolbarHidden(true, animated: true)
     }
     
     
@@ -36,13 +37,14 @@ class FeaturesVC: UIViewController {
     }
     
     func configureVC() {
+        title = "Featers"
     }
     
     
     func configureCollectionView() {
         collectionView = UICollectionView(
             frame: view.bounds,
-            collectionViewLayout: UIHelper.createTwoColumnFlowLayout(in: view)
+            collectionViewLayout: UIHelper.createThreeColumnFlowLayout(in: view)
         )
         view.addSubview(collectionView)
         collectionView.delegate         = self

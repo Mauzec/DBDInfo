@@ -13,7 +13,7 @@ class FeatureCell: UICollectionViewCell {
     
     let symbolLabel   = DISymbolLabel(textAlignment: .center, fontSize: 44)
     let titleLabel      = DITitleLabel(textAlignment: .center, fontSize: 16)
-    let secondaryLabel  = DISecondaryLabel(textAlignment: .center, fontSize: 14)
+//    let secondaryLabel  = DISecondaryLabel(textAlignment: .center, fontSize: 14)
     
     static let padding: CGFloat = 6
     
@@ -39,9 +39,6 @@ class FeatureCell: UICollectionViewCell {
         self.backgroundColor = Colors.secondaryBackground
         self.layer.cornerRadius = 10
         self.layer.borderColor  = UIColor.white.withAlphaComponent(0.10).cgColor
-        
-
-        symbolLabel.translatesAutoresizingMaskIntoConstraints = false
         
         let padding = Self.padding
         

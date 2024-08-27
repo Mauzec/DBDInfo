@@ -35,5 +35,7 @@ enum Symbols {
 
 enum Colors {
     static let mainBackground       = UIColor.init(red: 41 / 255, green: 41 / 255, blue: 41 / 255, alpha: 1)
-    static let secondaryBackground = UIColor.init(red: 21 / 255, green: 21 / 255, blue: 21 / 255, alpha: 1)
+    static let secondaryBackground  = UIColor.init(red: 21 / 255, green: 21 / 255, blue: 21 / 255, alpha: 1)
+    static let survivorColor        = UIColor.init(red: 30 / 255, green: 144 / 255, blue: 255 / 255, alpha: 0.65)
+    static let killerColor          = UIColor.init(red: 255 / 255, green: 0, blue: 0, alpha: 0.65)
 }

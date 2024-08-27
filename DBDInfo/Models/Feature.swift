@@ -69,7 +69,7 @@ extension Feature {
 //        Self(title: "Characters", symbol: Symbols.users),
 //        Self(title: "Store", symbol: Symbols.store),
 //        Self(title: "Offerings", symbol: Symbols.gift),
-//        Self(title: "Perks", symbol: Symbols.paperclip),
+        Self(title: "Perks", symbol: Symbols.paperclip, screenType: PerksVC.self),
 //        Self(title: "Items", symbol: Symbols.key),
 //        Self(title: "Addons", symbol: Symbols.puzzlePiece),
 //        Self(title: "Tier List", symbol: Symbols.table),

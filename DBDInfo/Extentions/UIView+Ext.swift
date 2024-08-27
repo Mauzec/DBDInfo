@@ -13,3 +13,17 @@ extension UIView {
         for view in views { self.addSubview(view) }
     }
 }
+
+extension UIView {
+    func addBackgroundImage(named: String) -> UIImageView {
+        let backgroundImage = UIImageView(frame: self.frame)
+        backgroundImage.image = UIImage(named: named)
+        backgroundImage.contentMode = .scaleAspectFill
+        backgroundImage.translatesAutoresizingMaskIntoConstraints = false
+
+        self.insertSubview(backgroundImage, at: 0)
+        self.sendSubviewToBack(backgroundImage)
+        
+        return backgroundImage
+    }
+}
