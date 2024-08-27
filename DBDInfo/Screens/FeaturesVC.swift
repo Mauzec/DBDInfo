@@ -37,7 +37,7 @@ class FeaturesVC: UIViewController {
     }
     
     func configureVC() {
-        title = "Featers"
+        title = "Features"
     }
     
     

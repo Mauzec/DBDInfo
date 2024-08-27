@@ -31,15 +31,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         )
         customBlurEffectView.frame = window?.windowScene?.statusBarManager?.statusBarFrame ?? CGRect.zero
         window?.addSubview(customBlurEffectView)
-        
-        configureNC()
     }
     
-    func configureNC() {
-        UINavigationBar.appearance().barTintColor   = .white
-        UINavigationBar.appearance().tintColor      = .white
-        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
-    }
+
     
 
     func sceneDidDisconnect(_ scene: UIScene) {
