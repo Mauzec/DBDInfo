@@ -16,6 +16,7 @@ iOS 15.0
 
 ### Development
 
-Now this is a small sketch. TODO list:
+Now this is a small sketch. Tested only on iPhone 15 Pro 
+TODO list:
 * DLCs 
 * Perks [in the process]
