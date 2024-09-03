@@ -27,6 +27,10 @@ class PreviewImageView: UIView {
     
     
     func setBackgroundImage(assetName: String) {
+        if backgroundImageView != nil {
+            backgroundImageView!.image = UIImage(named: assetName)
+            return
+        }
         backgroundImageView = addBackgroundImage(named: assetName)
         NSLayoutConstraint.activate([
             backgroundImageView!.leadingAnchor.constraint(equalTo: leadingAnchor),

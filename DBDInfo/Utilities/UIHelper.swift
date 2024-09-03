@@ -43,34 +43,3 @@ enum UIHelper {
         return flowLayout
     }
 }
-
-extension UIHelper {
-    
-    class PerkViewCache {
-        private var cache = [String: UIView]()
-        
-        func view(for key: String, configure: () -> UIView) -> UIView {
-            if let view = cache[key] { return view }
-            else {
-                let view = configure()
-                cache[key] = view
-                return view
-            }
-        }
-    }
-    
-    enum PerkViewCacheBuilder {
-        
-    }
-}
-
-typealias PerkViewChache = UIHelper.PerkViewCache
-
-//extension PerkViewChache {
-//    static let main: [PerkViewChache] = {
-//        return [
-//            "Ace in the Hole":
-//                
-//        ]
-//    }()
-//}

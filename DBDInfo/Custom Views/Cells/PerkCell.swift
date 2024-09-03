@@ -25,7 +25,7 @@ class PerkCell: UICollectionViewCell {
     
     
     func set(perk: Perk) {
-        perkImageView.placeholderImageView.image = UIImage(named: perk.name)
+        perkImageView.placeholderImageView.image = UIImage(named: perk.name.rawValue)
         
         if perk.character.type == .survivor {
             perkImageView.setBackgroundImage(assetName: "SurvivorRarity")
@@ -35,7 +35,7 @@ class PerkCell: UICollectionViewCell {
             self.layer.borderColor = Colors.killerColor.cgColor
         }
         
-        perkNameLabel.text  = perk.name
+        perkNameLabel.text = perk.name.rawValue
     }
     
     

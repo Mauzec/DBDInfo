@@ -1,0 +1,6 @@
+framework module Pods_DBDInfoTests {
+  umbrella header "Pods-DBDInfoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

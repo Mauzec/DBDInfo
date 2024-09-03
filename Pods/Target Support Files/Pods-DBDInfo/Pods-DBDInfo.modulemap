@@ -1,0 +1,6 @@
+framework module Pods_DBDInfo {
+  umbrella header "Pods-DBDInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}
